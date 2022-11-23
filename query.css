@@ -28,6 +28,18 @@
         left: 60%;
         top: 4%;
     }
+    .nav-tlf-principal {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+    }
+    .nav-tlf-sub {
+        width: 100%;
+        height: 100vh;
+        background-color:aqua;
+        
+    }
 }
 
 @media (max-width: 360px) {

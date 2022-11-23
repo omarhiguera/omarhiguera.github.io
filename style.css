@@ -119,7 +119,7 @@ li {
     margin: 2rem;
     background-color: #c3e2fa;
     border-radius: 10px;
-    width: 120px;
+    width: 175px;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
@@ -146,5 +146,9 @@ footer {
 
 .right img {
     margin-left: 12px;
+}
+
+.nav-tlf-principal {
+    display: none;
 }
 
