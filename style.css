@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+.principal{
+    width: 70%;
+    margin: 0 auto;
+    /*padding-left: 10rem;
+    padding-right: 10rem;*/
+}
+.btn-menu {
+    display: none;
+}
+
+header {
+    
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.bar {
+    background-color: #3054f2;
+    width: 55px;
+    height: 8px;
+    border-radius: 10px;
+    margin-top: -15px;
+}
+
+header a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header img {
+    border-radius: 50%;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+
+nav a {
+    margin-right: 28px;
+    color: #3d3f40;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color:#3054f2;
+}
+
+main {
+    padding: 2rem;
+    background-color: #d2eafc;
+}
+
+main h1 {
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+main p {
+    margin-bottom: 15px;
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: 300;
+}
+main p a{
+    text-decoration: none;
+    color: #3054f2;
+}
+
+.skills {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #d2eafc;
+
+}
+
+.skills-header {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-header h1 {
+    font-size: 40px;
+}
+
+.skills-header img {
+    margin-right: 10px;
+    margin-top: -14px;
+}
+li {
+   margin-top: 35px; 
+   font-size: 25px;
+   text-align: center;
+   list-style: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+#cv {
+    padding: 1rem;
+    margin: 2rem;
+    background-color: #c3e2fa;
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+hr {
+    margin-bottom: 25px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px
+}
+
+.left a {
+    text-decoration: none;
+    color: #3054f2;
+}
+
+.left h3{
+    margin-bottom: 10px;
+}
+
+.right img {
+    margin-left: 12px;
+}
+
