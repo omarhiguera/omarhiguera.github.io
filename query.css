@@ -69,6 +69,45 @@
         height: 300px;
         margin: 0 auto;
     }
+    /*Contact Me*/
+    .contact-form {
+        display: block;
+    }
+    form {
+        width: 100%;
+    }
+    form label {
+        margin-bottom: 0px;
+    }
+    form input {
+        width: 100%;
+    }
+    .form-row {
+        flex-direction: column;
+
+        width: 100%;
+    }
+    .form-name {
+        margin-right: 0px;
+    }
+    .form-name input {
+        /*width: 296px;*/
+        width: 100%;
+    }
+
+    .form-email {
+        margin-top: 1rem;
+    }
+    .form-email input {
+       /* width: 296px;*/
+       width: 100%;
+    }
+    /*Message*/
+    .message {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 18rem;
+    }
 }
 
 @media (max-width: 360px) {
@@ -83,5 +122,38 @@
     }
     .right{
         display: flex;
+    }
+    /*Contact Me*/
+    .contact-form {
+        display: block;
+    }
+    form {
+        width: 100%;
+    }
+    form label {
+        margin-bottom: 0px;
+    }
+    form input {
+        width: 100%;
+    }
+    .form-row {
+        flex-direction: column;
+
+        width: 100%;
+    }
+    .form-name {
+        margin-right: 0px;
+    }
+    .form-name input {
+        /*width: 296px;*/
+        width: 100%;
+    }
+
+    .form-email {
+        margin-top: 1rem;
+    }
+    .form-email input {
+       /* width: 296px;*/
+       width: 100%;
     }
 }

@@ -22,7 +22,7 @@
                 <a href="index.html" class="menu">HOME</a>
                 <a href="projects.html" class="menu">PROJECTS</a>
                 <a href="certifications.html" class="menu">CERTIFICATIONS</a>
-                <a href="contact.html" class="menu">CONTACT ME</a>
+                <a href="" class="menu">CONTACT ME</a>
             </div>
         </div>
     </div>
@@ -37,32 +37,42 @@
                     <a href="index.html" class="menu">HOME</a>
                     <a href="projects.html" class="menu">PROJECTS</a>
                     <a href="certifications.html" class="menu">CERTIFICATIONS</a>
-                    <a href="contact.html" class="menu">CONTACT ME</a>
+                    <a href="" class="menu">CONTACT ME</a>
                 </nav>
             </div>
         </header>
-        <main>
-            <h1>👋🏻 Hello, my name is Omar.</h1>
-            <p>I am a Junior Frontend Web Developer from Venezuela. Currently I know and - and I'm
-            still learning - HTML, CSS and JavaScript. Also, I am learning React too, in my spare time, I love building my own projects. </p>
-            <p>I am on <a href="">Githbub</a> and <a href="">LinkedIn</a>.</p>
-        </main>
-        <section class="skills">
-                <div class="skills-header">
-                    <img src="icons/portable-pc.svg" alt="ICON" width="60px" height="60px">
-                    <h1>Frontend Development</h1>
+        <div class="contact">
+            <h1>Contact Me</h1>
+            <p>If you have a question or you’d like to chat with me about a project. Please fill in the form bellow.
+                I will answer you as soon as I can.
+            </p>
+        </div>
+        <div class="contact-form">
+            <form action="https://formsubmit.co/819f85c331a2e78d718ba921d03909cb" method="post">
+                <div class="form-row">
+                    <div class="form-name">
+                        <label for="name">NAME <span>*</span></label> <br>
+                        <input  name="name" type="text" required/>
+                    </div>
+                    <div class="form-email">
+                        <label for="email">EMAIL <span>*</span></label> <br>
+                        <input type="email" name="email" id="email-i" required>
+                    </div>
                 </div>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS, Flexbox, CSS Grid</li>
-                    <li>Responsive Design and Media Queries</li>
-                    <li>JavaScript, JQuery</li>
-                    <li>JavaScript Libraries</li>
-                </ul>
-            </section>
-            <div class="btn">
-                <a href="" download="" id="cv">Download CV</a>
-            </div>
+                <div class="form-flex">
+                    <label for="subject">SUBJECT <span>*</span></label>
+                    <input name="subject" type="text" required>
+                    <label for="message">MESSAGE <span>*</span></label>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Write here your message" required></textarea>
+                    <div class="btn-form">
+                        <input type="submit" value="Send Message" id="send">
+
+                        <input type="hidden" name="_next" value="https://omarhiguera.com/message.html">
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
+                </div>
+            </form>
+        </div>
             <hr color="#3054f2">
         <footer>
             <div class="left">
